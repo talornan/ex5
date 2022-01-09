@@ -6,9 +6,9 @@ Name : Tzach Itshak Ofir ID: 208062943<br />
 
 ![pokemon-1591427_1920](https://user-images.githubusercontent.com/76403961/148697885-be26bf80-4612-46c3-9d91-225fc1206909.jpg)
 
-To implentet the game we use our implemtion of directed weight graph we did in OPPTask4. You can find the algo explantion in the WIKI.
+### ****To implement the game we use our implemtion of directed weight graph we did in OPPTask4. You can find the algo explantion in the WIKI.****
  
-To Implemt the game we did a few calses.
+#### *****To implement the game we did a few classes.*****
 
 1.GameController - get the GameView and the GameModle and use them both to impement the game. 
 2.GameInfo - get all the info of the game by the client and put on an object.
@@ -24,5 +24,5 @@ To Implemt the game we did a few calses.
 
 
 
-GUI screenShots:
+### ****Gui screenShoot:****
 ![WhatsApp Image 2022-01-09 at 21 52 55](https://user-images.githubusercontent.com/76403961/148698947-329d197e-e69e-4238-8b19-52b0622918b1.jpeg)
