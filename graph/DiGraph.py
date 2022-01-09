@@ -1,7 +1,10 @@
-from Node import Node
+from graph.GeoLocation import GeoLocation
+from graph.Node import Node
+import math
 
 
 class DiGraph(object):
+    EPSILON = 0.000001
 
     def __init__(self):
         self.dict_vertices = {}
@@ -162,4 +165,30 @@ class DiGraph(object):
             self.dict_edges_in[node_id2].pop(node_id1)
         self.MC += 1
         self.numOfEdge -= 1
+        return True
+
+
+    #undirected graph
+    def getEdgePointIsOn(self, currPoint):
+        for src,dests in self.get_all_edges().items():
+            for dest in dests.keys():
+                point1 = self.getNode(src).location
+                point2 = self.getNode(dest).location
+
+                if self.isBetween(GeoLocation(point1), GeoLocation(point2), GeoLocation(currPoint)):
+                    return (src,dest)
+    def isBetween(self, a, b, c):
+        crossproduct = (c.y - a.y) * (b.x - a.x) - (c.x - a.x) * (b.y - a.y)
+
+        # compare versus epsilon for floating point values, or != 0 if using integers
+        if abs(crossproduct) > self.EPSILON:
+            return False
+
+        dotproduct = (c.x - a.x) * (b.x - a.x) + (c.y - a.y) * (b.y - a.y)
+        if dotproduct < 0:
+            return False
+
+        squaredlengthba = (b.x - a.x) * (b.x - a.x) + (b.y - a.y) * (b.y - a.y)
+        if dotproduct > squaredlengthba:
+            return False
         return True

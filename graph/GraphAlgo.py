@@ -7,12 +7,11 @@ from collections import defaultdict
 from typing import List
 import copy
 import json
-from igraph import *
+#from igraph import *
 import random
-from GraphAlgoInterface import GraphAlgoInterface
-from GraphInterface import GraphInterface
-from DiGraph import DiGraph
-from Node import Node
+from graph.GraphInterface import GraphInterface
+from graph.DiGraph import DiGraph
+from graph.Node import Node
 
 
 class GraphAlgo(object):
@@ -51,6 +50,10 @@ class GraphAlgo(object):
         # a dictionary
         data = json.load(f)
         f.close()
+        self.load_graph_from_json(data)
+
+
+    def load_graph_from_json(self, data):
         new_graph = DiGraph()
 
         for node in data["Nodes"]:

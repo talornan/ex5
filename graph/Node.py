@@ -100,3 +100,5 @@ class Node(object):
          parm: A new Weight of the vertex.
          """
         self.Weight = Weight
+
+
