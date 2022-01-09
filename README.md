@@ -7,7 +7,7 @@ Name : Tzach Itshak Ofir ID: 208062943<br />
 ![pokemon-1591427_1920](https://user-images.githubusercontent.com/76403961/148697885-be26bf80-4612-46c3-9d91-225fc1206909.jpg)
 
 ### ****Video of the GUI****
-https://user-images.githubusercontent.com/76403961/148702035-bf98ac7e-9fe7-4e72-8f57-64472613cd6a.mp4
+https://user-images.githubusercontent.com/76403961/148702089-23f19796-e58b-4192-90f5-934c8ff859b2.mp4
 
 ### ****To implement the game we use our implemtion of directed weight graph we did in OPPTask4. You can find the algo explantion in the WIKI.****
  
