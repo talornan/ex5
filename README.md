@@ -1,7 +1,7 @@
 # final O.P.P task - **Pokemon game**
 
-Name : Tal Ornan ID: 209349356<br />
-Name : Tzach Itshak Ofir ID: 208062943<br />
+Name : Tal Ornan <br />
+Name : Tzach Itshak Ofir <br />
 
 
 ![pokemon-1591427_1920](https://user-images.githubusercontent.com/76403961/148697885-be26bf80-4612-46c3-9d91-225fc1206909.jpg)
