@@ -10,12 +10,12 @@ Name : Tzach Itshak Ofir ID: 208062943<br />
  
 #### *****To implement the game we did a few classes.*****
 
-1.GameController - get the GameView and the GameModle and use them both to impement the game. 
-2.GameInfo - get all the info of the game by the client and put on an object.
-3.GameModle- the algo of the game , the best way to choose that pokamon need to eat to get the biggest num of pokamon .
-4.GameView - the Gui implemntion of the game/
-5.Agent - class represent an agent from client and make Agent object
-6. Pokamon -class represent an Pokamon from client and make Pokamon object
+1.GameController - get the GameView and the GameModle and use them both to impement the game.<br /> 
+2.GameInfo - get all the info of the game by the client and put on an object.<br />
+3.GameModle- the algo of the game , the best way to choose that pokamon need to eat to get the biggest num of pokamon .<br />
+4.GameView - the Gui implemntion of the game.<br />
+5.Agent - class represent an agent from client and make Agent object.<br />
+6. Pokamon -class represent an Pokamon from client and make Pokamon object.<br />
 
 
 
