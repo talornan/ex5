@@ -16,3 +16,13 @@ To Implemt the game we did a few calses.
 4.GameView - the Gui implemntion of the game/
 5.Agent - class represent an agent from client and make Agent object
 6. Pokamon -class represent an Pokamon from client and make Pokamon object
+
+
+
+
+
+
+
+
+GUI screenShots:
+![WhatsApp Image 2022-01-09 at 21 52 55](https://user-images.githubusercontent.com/76403961/148698947-329d197e-e69e-4238-8b19-52b0622918b1.jpeg)
