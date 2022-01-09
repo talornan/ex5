@@ -17,7 +17,7 @@ https://user-images.githubusercontent.com/76403961/148702089-23f19796-e58b-4192-
 This class contains the model of the game. it conains the business logic of the class - 
         The logic of the game. in the class the main algorithem is implementes. the target of this class in to maximize
         the grade of all the agents.
-        The  Algorithm contains three main parts:
+        The  Algorithm contains three main parts:<br />
             1. ******init****** - we are init each agent in closest as possible to the most valuable pokemons. in order to do so,
             Merging is executeed over the pokemons object(the value fielst), and agent is assign using to the closet node.<br />
             2.  Algorithm -<br />
