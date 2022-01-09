@@ -17,7 +17,48 @@ Name : Tzach Itshak Ofir ID: 208062943<br />
 5.Agent - class represent an agent from client and make Agent object.<br />
 6. Pokamon -class represent an Pokamon from client and make Pokamon object.<br />
 
-### ****GameModle*****
+#### ****GameModle:****
+**Fields:**<br />
+
+
+
+**Functions:**<br />
+
+
+#### ****Agent:****
+**Fields:**<br />
+
+
+
+**Functions:**<br />
+
+
+
+#### ****Pokamon:****
+**Fields:**<br />
+
+
+
+**Functions:**<br />
+
+
+
+#### ****GameInfo:****
+**Fields:**<br />
+
+
+
+**Functions:**<br />
+
+#### ****GameController:****
+**Fields:**<br />
+
+
+
+**Functions:**<br />
+
+
+
 
 
 
