@@ -18,7 +18,7 @@ This class contains the model of the game. it conains the business logic of the 
         The logic of the game. in the class the main algorithem is implementes. the target of this class in to maximize
         the grade of all the agents.
         The  Algorithm contains three main parts:
-            1. init - we are init each agent in closest as possible to the most valuable pokemons. in order to do so,
+            1. ******init****** - we are init each agent in closest as possible to the most valuable pokemons. in order to do so,
             Merging is executeed over the pokemons object(the value fielst), and agent is assign using to the closet node.<br />
             2.  Algorithm -<br />
                 1. check if there are agent that already on the way of eating pokemons, if so, we should ignore those agents, and those pokemons<br />
@@ -32,10 +32,10 @@ This class contains the model of the game. it conains the business logic of the 
 
 
 **Functions:**<br />
-runAndUpdate - run the algorithem and update the server
-init_game - init each agent as close as possible to the node.
-gameAlgo - the main algorithm - 
-        The  Algorithm contains three main parts:
+******runAndUpdate****** - run the algorithem and update the server<br />
+******init_game****** - init each agent as close as possible to the node.<br />
+******gameAlgo****** - the main algorithm -<br /> 
+        The Algorithm contains three main parts:
             1. init - we are init each agent in closest as possible to the most valuable pokemons. in order to do so,
             Merging is executeed over the pokemons object(the value fielst), and agent is assign using to the closet node.<br />
             2.  Algorithm -<br />
