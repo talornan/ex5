@@ -191,10 +191,4 @@ class Client:
         if res == "getId":
             res = self.__send_message(id_str)
 
-    def stop_connection(self):
-        """
-        use it to close the connection 'gracefuly'
-        """
-        res = self.__send_message('.')
-        if res == 'good bye':
-            self.soc.close()
+   
