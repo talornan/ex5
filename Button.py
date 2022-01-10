@@ -1,5 +1,4 @@
 
-class Button():
     def __init__(self, pygame, color,  x, y, width, height, text=''):
         self.color = color
         self.ogcol = color
