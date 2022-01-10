@@ -52,5 +52,11 @@ class Agents(object):
         simpel wrapper for list of agents
         this class is in use in order to simplify the  use in the json that return from the client
     """
-  
+    def __init__(self, agents_json_str):
+        self.agents = []
+        agents_json = json.loads(agents_json_str)
+        for agent in agents_json["Agents"]:
+            self.agents.append(Agent(agent["Agent"]))
+
+
 
